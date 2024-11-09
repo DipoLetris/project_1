@@ -1,2 +1,2 @@
 # project_1
-Membuat website sederhanan dengan html dan css
+Membuat website sederhana dengan html dan css
