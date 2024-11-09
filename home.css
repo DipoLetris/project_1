@@ -1,13 +1,19 @@
 .nav{
     display: flex;
-    justify-content: space-around;
     margin-top: 30px;
+    justify-content: space-between;
     border-bottom: 1px solid gainsboro;
-    gap: 500px;
     box-sizing: border-box;
+}
+.nav_logo{
+    margin-left: 80px;
 }
 .nav_logo h1{
     font-size: 30px;
+}
+
+.nav_link{
+    margin-right: 80px;
 }
 
 .nav_link li{
