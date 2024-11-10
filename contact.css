@@ -27,7 +27,6 @@
 }
 .c1text_btn{
     display: flex;
-
 }
 
 .c1text h3,h1,p{
@@ -96,3 +95,36 @@
     color: #30475E;
     font-weight: bold;
   }
+/* mobile */
+  @media (max-width: 1020px) {
+    .c1logo{
+        grid-column: span 2;
+    }
+}
+@media (max-width: 768px) {
+    .c1{
+        display: grid;
+        margin-top: 60px;
+        grid-template-columns: 1fr;
+        height: 100%;
+        gap: 50px;
+        box-sizing: border-box;
+    }
+    .c1img{
+        order: 3;
+    }
+    .c1logo{
+        grid-column: span 1;
+        justify-content: center;
+        text-align: center;
+    }
+    .c1text_btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .c1 .button:last-child{
+        margin-left: 0;
+    }
+    
+}
