@@ -155,3 +155,7 @@ p{
     margin: auto;
     width: 90%;
 }
+a{
+    text-decoration: none;
+    color: #30475E;
+}
