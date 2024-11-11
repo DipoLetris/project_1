@@ -122,6 +122,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f6f6f6;
@@ -203,6 +205,7 @@ a {
   font-weight: normal;
   border-bottom: none;
 }
+
 /* resposive  */
 @media (max-width: 1000px) {
   .nav_logo h1 {
